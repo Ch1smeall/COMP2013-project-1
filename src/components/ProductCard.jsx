@@ -28,9 +28,7 @@ function ProductCard(props) {
             type="product"
         />
 
-        <button onClick={handleAddToCart} style={{ marginTop: "5px" }}>
-            Add to Cart
-        </button>
+        <button onClick={handleAddToCart} style={{ marginTop: "5px" }}>Add to Cart</button>
         </div>
 
     );

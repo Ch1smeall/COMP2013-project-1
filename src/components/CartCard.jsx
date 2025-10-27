@@ -26,8 +26,7 @@ function CartCard(props) {
                 <button 
                     className="RemoveButton"
                     onClick={() => props.removeFromCart(props.name)}
-                >Remove Item
-                </button>
+                >Remove Item</button>
             </div>
         </div>
     )

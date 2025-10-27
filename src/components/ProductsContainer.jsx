@@ -23,9 +23,7 @@ function ProductsContainer(props) {
   }
 
   return (
-    <div className="ProductsContainer">
-        {productCards}
-    </div>
+    <div className="ProductsContainer">{productCards}</div>
   );
 }
 

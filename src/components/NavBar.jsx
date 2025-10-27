@@ -15,15 +15,9 @@ function NavBar(props) {
 
   return (
     <div className="NavBar">
-      <div className="NavDiv NavUser">
-        Hello, {username}!
-      </div>
-      <div className="NavDiv NavTitle">
-        <h1>My Grocery Store</h1>
-      </div>
-      <div className="NavDiv NavCart">
-        <img src={cartImage} alt="Cart" />
-      </div>
+      <div className="NavDiv NavUser"><p>Hello, {username}!</p></div>
+      <div className="NavDiv NavTitle"><h1>My Grocery Store</h1></div>
+      <div className="NavDiv NavCart"><img src={cartImage} alt="Cart" /></div>
     </div>
   );
 }
