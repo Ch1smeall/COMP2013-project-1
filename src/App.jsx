@@ -1,7 +1,11 @@
+import React from "react";
+import GroceriesAppContainer from "./components/GroceriesAppContainer";
 import "./App.css";
 
 function App() {
-  return <>{/* Add your code here! */}</>;
+     return (
+        <GroceriesAppContainer />
+    );
 }
 
 export default App;
